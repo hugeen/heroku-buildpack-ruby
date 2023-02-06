@@ -11,7 +11,7 @@ ENV["HATCHET_BUILDPACK_BASE"] ||= "https://github.com/heroku/heroku-buildpack-ru
 
 ENV['RACK_ENV'] = 'test'
 
-DEFAULT_STACK = 'heroku-20'
+DEFAULT_STACK = 'heroku-16'
 
 
 def hatchet_path(path = "")
@@ -65,7 +65,7 @@ def rails_lts_config
 end
 
 def rails_lts_stack
-  "heroku-20"
+  "heroku-16"
 end
 
 def hatchet_path(path = "")
