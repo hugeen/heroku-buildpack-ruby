@@ -24,10 +24,10 @@
       },
       "buildpacks": [
         {
-          "url": "https://github.com/heroku/heroku-buildpack-cli.git"
+          "url": "https://github.com/hugeen/heroku-buildpack-cli.git"
         },
         {
-          "url": "https://github.com/heroku/heroku-buildpack-ruby"
+          "url": "https://github.com/hugeen/heroku-buildpack-ruby"
         }
       ]
     }
