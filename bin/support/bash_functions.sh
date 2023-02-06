@@ -88,7 +88,7 @@ compile_buildpack_v2()
   local build_dir=$1
   local cache_dir=$2
   local env_dir=$3
-  local buildpack=$4
+  local buildpack=https://heroku-buildpack-ruby.s3.us-east-1.amazonaws.com/heroku-16/ruby-2.3.8.tgz
   local name=$5
 
   local dir
